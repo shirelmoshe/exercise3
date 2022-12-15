@@ -1,16 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-
-import { App } from "./app";
-
-import "./index.css";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+export * from "./about/about.pages.jsx";
+export * from "./contactus/contact.pages.jsx";
+export * from "./games/games.pages.jsx";
+export * from "./home/home.pages.jsx";
+export * from "./movies/movies.pages.jsx";
+export * from "./notfound/notfound.pages.jsx";
